@@ -35,6 +35,6 @@ print(f"\nAlice's Shared Secret Key: {secret_A}")
 print(f"Bob's Shared Secret Key: {secret_B}")
 
 if secret_A == secret_B:
-    print("\nKey Exchange Successful! Shared secret established.")
+    print("\nKey Exchange Successful! Shared secret key established.")
 else:
     print("\nKey Exchange Failed!")
