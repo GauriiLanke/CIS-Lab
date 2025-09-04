@@ -1,4 +1,4 @@
-# Diffie-Hellman Key Exchange Algorithm with Primitive Root Validation
+# Diffie-Hellman Key Exchange Algorithm 
 
 def is_primitive_root(alpha, q):
     required_set = set(num for num in range(1, q)) #required set of numbers from 1 to q-1
